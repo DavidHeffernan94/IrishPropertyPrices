@@ -216,3 +216,12 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Raw data - too large, downloaded via script
+data/raw/
+
+# Environment
+.env
+
+# Notebook checkpoints
+.ipynb_checkpoints/
