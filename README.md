@@ -45,22 +45,24 @@ Data is pre-aggregated to 264 KB of Parquet files, so the app loads instantly an
 
 ## Repository Contents
 
+```
 IrishPropertyPrices/
 ├── App/
-│ ├── IrishPropertyPrices_App.py # the deployed application
-│ └── data/ # pre-aggregated, 264 KB
+│   ├── IrishPropertyPrices_App.py       # the deployed application
+│   └── data/                            # pre-aggregated, 264 KB
 ├── Notebooks/
-│ ├── 01 - Data Exploration.ipynb # schema inspection, quality assessment
-│ ├── 02 - Cleaning.ipynb # cleaning pipeline, BER join
-│ ├── 03 - Exploratory Analysis.ipynb # trends, geography, energy efficiency
-│ └── 04 - Modelling.ipynb # modelling and the accuracy ceiling
+│   ├── 01 - Data Exploration.ipynb      # schema inspection, quality assessment
+│   ├── 02 - Cleaning.ipynb              # cleaning pipeline, BER join
+│   ├── 03 - Exploratory Analysis.ipynb  # trends, geography, energy efficiency
+│   └── 04 - Modelling.ipynb             # modelling and the accuracy ceiling
 ├── Data/
-│ ├── Raw/ # downloaded sources, not tracked
-│ └── Processed/ # cleaned outputs, not tracked
+│   ├── Raw/                             # downloaded sources, not tracked
+│   └── Processed/                       # cleaned outputs, not tracked
 ├── .gitignore
 ├── README.md
 ├── LICENSE
 └── requirements.txt
+```
 
 
 ## Data Sources
