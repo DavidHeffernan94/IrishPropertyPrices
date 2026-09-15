@@ -2,7 +2,7 @@
 
 Analysing 750,000 Irish residential property sales from 2010 to present, and testing whether sale prices can be predicted from publicly available data.
 
-**[Explore the data →](https://irish-property-prices.streamlit.app)**
+**[Explore the data →](https://irishpropertyprices.streamlit.app//)**
 
 **Headline finding:** they can't, at property level. Around 61% of price variation occurs *within* Eircode routing keys rather than between them, and no public dataset provides the property-level characteristics needed to explain it. Models reach 25.4% median absolute percentage error against a theoretical ceiling of 25.1% - the available features are effectively exhausted.
 
